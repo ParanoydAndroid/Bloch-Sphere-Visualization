@@ -28,7 +28,7 @@ Edited by: Brandon Kamaka
 
 2.) Create a project folder in an appropriate location
 
-3.) Create a python virtual env in your project folder
+3.) Create a python virtual env in your project folder from your python27/python.exe
 
 4.) Activate your virtual environment
 
@@ -41,10 +41,4 @@ Edited by: Brandon Kamaka
 7.) After vPython installs into the temporary folder, open [temp folder]>Lib>site-packages and copy its entire contents 
     into [project folder]>[virtual env name]>Lib>site-packages
 
-8.) Run bloch_Sphere_Win.py
-
-But more importantly, you will NOT be able to run Bloch_Sphere.py, you need more for that.
-
-3) Install numPy (A math/science package for Python, for the windows copy I got it here: http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy (Version 2.7 again)
-
-That *should* get it working. Email me if you run into troubles.
+8.) Run bloch_Sphere_Win.py from your virtual environment
