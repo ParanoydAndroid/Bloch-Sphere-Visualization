@@ -22,11 +22,26 @@ Contact: tdwyer@sfu.ca
 
 
 ### Usage instructions: ###
+Edited by: Brandon Kamaka
 
-1) Install Python as per the instructions on the VPython Site (installing the version he suggests) – ie. 2.7.6 from the Python site
+1) Install python 2.7, x86-64.
 
-2) Install VPython on Windows, I used VPython-Win-64-Py2.7-6.10
-At this point you should be able to open the example projects (ie. Bounce.py, located in C:Python27Libsite-packagesvisualexamples)
+2.) Create a project folder in an appropriate location
+
+3.) Create a python virtual env in your project folder
+
+4.) Activate your virtual environment
+
+5.) pip install numpy
+ 
+6a) Use the legacy vPython installer included in this repo: VPython-Win-64-Py2.7-6.11.exe
+6b.) Uncheck the "numpy", "Demo Programs" and "VIDLE" options from the vPython installer
+6c.) Choose an empty, temporary folder for your installer destination.
+
+7.) After vPython installs into the temporary folder, open [temp folder]>Lib>site-packages and copy its entire contents 
+    into [project folder]>[virtual env name]>Lib>site-packages
+
+8.) Run bloch_Sphere_Win.py
 
 But more importantly, you will NOT be able to run Bloch_Sphere.py, you need more for that.
 
